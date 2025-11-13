@@ -12,6 +12,8 @@ public class Main {
         SwingUtilities.invokeLater(() -> {
             TelaPrincipal tp = new TelaPrincipal();
             tp.iniciar();
+            Database.inicializar();
+
         });
     }
 }
